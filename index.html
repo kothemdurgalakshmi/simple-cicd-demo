@@ -1,20 +1,50 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>My Favourite Place</title>
+    <title>Event Registration Form</title>
 </head>
 <body>
+    <h1>Event Registration Form</h1>
+    <form>
+       <img src="event.jpg" hight="200" width=300 alt="Kothem Durga Lakshmi">
 
-  <h1>My Favourite Place - Photo Gallery</h1>
+        <label>Full Name:</label>
+        <input type="text" name="fullName"><br><br>
 
-  <h3>1.kedarnath</h3>
-  <img src="kedarnath.jpg" width="300" height="200">
-  <p>Dream place.</p>
+      
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
 
-  <h3>2.kailash parvat </h3>
-  <img src="kailash parvat.jpg" width="300" height="200">
-  <p>Mount Kailash: One of the World’s Unclimbed Peaks.</p>
+        
+        <label>Phone Number:</label>
+        <input type="tel" name="phone"><br><br>
 
+      
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+
+       
+        <label>Interests:</label>
+        <input type="checkbox" name="interests" value="Music"> Music
+        <input type="checkbox" name="interests" value="Sports"> Sports
+        <input type="checkbox" name="interests" value="Art"> Art<br><br>
+
+        
+        <label>City:</label>
+        <select name="city">
+            <option>Select your city</option>
+            <option>Vijayawada</option>
+            <option>Hyderabad</option>
+            <option>Chennai</option>
+            <option>Bangalore</option>
+        </select><br><br>
+
+        <label>Comments:</label>
+        <textarea name="comments"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
 </body>
 </html>
-
